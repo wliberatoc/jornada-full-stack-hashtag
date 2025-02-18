@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "mongodb": "^6.13.0"
-  }
+  },
+  "name": "gabarito-da-aula-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end  && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wliberatoc/jornada-full-stack-hashtag.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wliberatoc/jornada-full-stack-hashtag/issues"
+  },
+  "homepage": "https://github.com/wliberatoc/jornada-full-stack-hashtag#readme",
+  "description": ""
 }
